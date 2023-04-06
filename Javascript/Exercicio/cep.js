@@ -28,7 +28,6 @@ function getAddress(postalCode){
             return resp.json();})
         .then(getAddressSuccess)
         .catch(getAddressError);
-        
 };
 
 
